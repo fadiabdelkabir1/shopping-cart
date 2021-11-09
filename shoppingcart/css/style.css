@@ -1,0 +1,147 @@
+
+header{
+    background-color: rgba(95, 158, 160, 0.719);
+    display: block;
+    z-index: 100 !important;
+    position: sticky !important;
+    top: 0px;
+    padding: -30px;
+    margin: -30px;
+    
+    
+}
+
+header ul {
+    position:sticky;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    margin: 0px;
+    
+    
+}
+header ul li {
+    padding: 10px;
+
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+header ul li a span{
+    color:rgb(16, 120, 124);
+    text-decoration: none;   
+}
+.sommesection{
+    justify-content: flex-start !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    bottom: 8px;
+    background: rgba(95, 158, 160, 0.719) !important;
+    position: fixed !important;
+    color: white !important;
+    width: 200px;
+}
+.sommesection img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.allsections{
+    display: flex;
+    margin: 10% 5% 5% 5%;
+    justify-content: space-between;
+ 
+}
+.allsections:hover{
+    background-color: rgba(95, 158, 160, 0.719);
+    color: white;
+}
+.allsections .img img{
+    width: 350px;
+    height: 300px;
+}
+.allsections .titledisc ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.allsections .titledisc {
+    width: 230px;
+}
+
+
+.allsections .basket{
+    align-self: center;
+    text-align: center;
+
+}
+.allsections .basket input{
+    width: 40px;
+    height: 31px;
+    font-size: 20px;
+    margin: 0 10px;
+    border:none;
+    outline: none;
+    padding: 5px ;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.allsections .reactions{
+    width: 60px;
+    align-self: center;
+}
+
+button{
+    background-color: white;
+    width: 40px;
+    border:none;
+    outline:none;
+    border-radius: 8px;
+    font-size: 25px;
+    height: 40px;
+
+}
+.basket button:hover{
+    cursor: pointer;
+    background:white;
+    color: rgba(16, 120, 124, 0.986);;
+    
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn {
+    background: transparent;
+    border:none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+
+    color: grey
+}
+.reactions button:hover{
+    cursor: pointer;
+    background:white;
+
+}
+#btns:hover{
+    color: darkred;
+    cursor: pointer;
+    background:white;
+
+}
+.fourthsection img{
+    width: 280px !important;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.thirdsection img{
+    width: 400px !important;
+    margin-left: -40px;
+}
